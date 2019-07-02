@@ -20,6 +20,10 @@ h3 {
   &.lg-heading {
     font-size: 6rem;
   }
+
+  &.md-heading {
+    font-size: 4rem;
+  }
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
@@ -94,6 +98,7 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    text-align: left;
   }
 }
 

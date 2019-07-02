@@ -127,6 +127,10 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem; }
+  h1.md-heading,
+  h2.md-heading,
+  h3.md-heading {
+    font-size: 4rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -183,7 +187,8 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #eece1a 5px solid;
+    text-align: left; }
 
 .projects {
   display: grid;
@@ -250,7 +255,7 @@ main {
 
 @media screen and (max-width: 768px) {
   main {
-    aligh-items: center;
+    align-items: center;
     text-align: center; }
     main .lg-heading {
       line-height: 1;
@@ -281,6 +286,16 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 4rem; }
+  h1.md-heading,
+  h2.md-heading,
+  h3.md-heading {
+    font-size: 2rem; }
+  .boxes div {
+    font-size: 1rem; }
   main#home h1 {
     margin-top: 10vh; }
   .projects {

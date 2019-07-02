@@ -13,7 +13,7 @@
 //Tables & Small Laptops
 @include mediaMd {
   main {
-    aligh-items: center;
+    align-items: center;
     text-align: center;
 
     .lg-heading {
@@ -63,6 +63,22 @@
 }
 //Smartphones
 @include mediaSm {
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 4rem;
+    }
+    &.md-heading {
+      font-size: 2rem;
+    }
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
+    }
+  }
   main#home h1 {
     margin-top: 10vh;
   }
